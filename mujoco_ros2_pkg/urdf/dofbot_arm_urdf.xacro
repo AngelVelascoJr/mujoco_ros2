@@ -32,14 +32,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link1_low_poly.stl" />
             </geometry>
             <material name="pigment_green" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link1_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -61,14 +61,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link2_low_poly.stl" />
             </geometry>
             <material name="pigment_green" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link2_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -90,14 +90,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link3_low_poly.stl" />
             </geometry>
             <material name="pigment_green" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link3_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -119,14 +119,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link4_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link4_low_poly.stl" />
             </geometry>
             <material name="pigment_green" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link4_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link4_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -148,14 +148,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link5_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link5_low_poly.stl" />
             </geometry>
             <material name="eerie_black" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/arm_link5_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/arm_link5_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -178,14 +178,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger1_low_poly.stl" />
             </geometry>
             <material name="yinmn_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger1_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -208,14 +208,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger2_low_poly.stl" />
             </geometry>
             <material name="oxford_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger2_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -238,14 +238,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger3_low_poly.stl" />
             </geometry>
             <material name="silver_lake_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/rgrip_finger3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/rgrip_finger3_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -268,14 +268,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger1_low_poly.stl" />
             </geometry>
             <material name="yinmn_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger1_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger1_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -298,14 +298,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger2_low_poly.stl" />
             </geometry>
             <material name="oxford_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger2_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger2_low_poly.stl" />
             </geometry>
         </collision>
     </link>
@@ -328,14 +328,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger3_low_poly.stl" />
             </geometry>
             <material name="silver_lake_blue" />
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/lgrip_finger3_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/lgrip_finger3_low_poly.stl" />
             </geometry>
         </collision>
     </link>

@@ -5,14 +5,14 @@
         <visual>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/base_link_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/base_link_low_poly.stl" />
             </geometry>
             <material name="eerie_black" />
         </visual>
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://dofbot_description/meshes/low_poly/dofbot/visual/base_link_low_poly.stl" />
+                <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/dofbot/visual/base_link_low_poly.stl" />
             </geometry>
         </collision>
         <inertial>

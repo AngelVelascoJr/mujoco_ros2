@@ -12,7 +12,7 @@
       <visual>
           <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-              <mesh filename="package://dofbot_description/meshes/low_poly/sensor/visual/mono_link_low_poly.stl"/>
+              <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/sensor/visual/mono_link_low_poly.stl"/>
           </geometry>
           <material name="">
               <color rgba="0.7 0.7 0.7 1"/>
@@ -21,7 +21,7 @@
       <collision>
           <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-              <mesh filename="package://dofbot_description/meshes/low_poly/sensor/visual/mono_link_low_poly.stl"/>
+              <mesh filename="package://mujoco_ros2_pkg/meshes/low_poly/sensor/visual/mono_link_low_poly.stl"/>
           </geometry>
       </collision>
   </link>
