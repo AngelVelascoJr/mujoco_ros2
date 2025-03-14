@@ -37,6 +37,9 @@ def generate_launch_description():
         executable="joint_state_publisher"
     )
 
+    controller_config_file = os.path.join(get_package_share_path('mujoco_ros2_pkg'), 'config', 'dofbot_controler.yaml')
+
+
     #Ejecucion del nodo de RVIZ
     config_arg = DeclareLaunchArgument(name = 'rvizconfig', default_value = rviz_config_path)
     rviz2_node = Node(
@@ -44,22 +47,23 @@ def generate_launch_description():
         executable="rviz2",
         arguments=['-d', rviz_config_path]
     )
-    
-    launch_mujoco = ExecuteProcess(
-        cmd=['~/Downloads/mujoco-3.3.0-linux-x86_64/mujoco-3.3.0/bin/simulate', urdf_path],
-        output='screen'
+
+    node_mujoco_ros2_control = Node(
+        package='mujoco_ros2_control',
+        executable='mujoco_ros2_control',
+        output='screen',
+        parameters=[
+            {'robot_description': robot_description},
+            controller_config_file,
+            {'mujoco_model_path':os.path.join(urdf_path)}
+        ]
     )
 
     #Retorno de la funcion del archivo launch
     return LaunchDescription([
         robot_state_publisher_node,
         joint_state_publisher,
+        node_mujoco_ros2_control,
         config_arg,
         rviz2_node,
-        RegisterEventHandler(
-            event_handler=OnProcessExit(
-                target_action=joint_state_publisher,
-                on_exit=launch_mujoco
-            )
-        ),
     ])
