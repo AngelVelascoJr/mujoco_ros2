@@ -32,11 +32,6 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_description}]
     )
 
-    joint_state_publisher = Node(
-        package="joint_state_publisher",
-        executable="joint_state_publisher"
-    )
-
     controller_config_file = os.path.join(get_package_share_path('mujoco_ros2_pkg'), 'config', 'dofbot_controler.yaml')
 
 
@@ -61,9 +56,8 @@ def generate_launch_description():
 
     #Retorno de la funcion del archivo launch
     return LaunchDescription([
-        robot_state_publisher_node,
-        joint_state_publisher,
+        #robot_state_publisher_node,
         node_mujoco_ros2_control,
-        config_arg,
-        rviz2_node,
+        #config_arg,
+        #rviz2_node,
     ])
